@@ -4,8 +4,10 @@
   "version": "0.1",
   "incognito": "split",
   "background": {
-  "scripts": ["background.js"],
-  "persistent": false
+  "scripts": ["background.js"]
 },
+  "chrome_url_overrides": {
+    "newtab": "redirect.html"
+  },
   "manifest_version": 2
 }
