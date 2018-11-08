@@ -1,3 +1,3 @@
 chrome.tabs.onCreated.addListener(function () {
-    chrome.tabs.update({'url': "http://www.sproutsocial.com"});
+    chrome.tabs.update({'url': "http://www.mycppquiz.com/question.php?qid=7"});
 });
