@@ -9,5 +9,15 @@
   "chrome_url_overrides": {
     "newtab": "redirect.html"
   },
+
+  "content_scripts": [
+    {
+    "matches": [
+        "http://www.mycppquiz.com/*"
+        ],
+    "js": ["content.js"],
+    "run_at": "document_end"
+    }
+  ],
   "manifest_version": 2
 }
