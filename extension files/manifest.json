@@ -4,7 +4,7 @@
   "version": "0.1",
   "incognito": "split",
   "background": {
-  "scripts": ["background.js"]
+  "scripts": []
 },
   "chrome_url_overrides": {
     "newtab": "redirect.html"
